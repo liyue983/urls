@@ -3,8 +3,6 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const fs = require("fs");
 
-const urls = require('./db/urls');
-
 const app = express();
 
 app.use(morgan('tiny'));
